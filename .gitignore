@@ -1,0 +1,60 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+
+# ── Node / builds ──
+frontend/node_modules/
+frontend/dist/
+frontend_dist/
+frontend_dist.*/
+
+# ── Secrets ──
+.env
+*.env
+!.env.example
+
+# ── Data: CBMS records, GIS layers, analysis outputs, database dumps ──
+# Never commit -- they contain household-level data.
+data/**/*.csv
+data/**/*.xlsx
+data/**/*.xls
+data/**/*.sqlite
+data/**/*.zip
+data/geojson/
+data/gis/
+data/spatial/
+data/cbms 2024/
+data/imports/
+data/manual/
+data/domain_pipeline_results/
+backend/*.csv
+backend/domain_pipeline_outputs/
+database/
+backups/
+deploy/initdb/
+deploy/pg_version.txt
+*.sql
+!deploy/installer/empty_db.sql
+*.dump
+*.backup
+*.tgz
+
+# ── Packages / installers ──
+*.zip
+*.exe
+deploy/no-docker/restore.log
+
+# ── AI assistant / agent files ──
+Claude outputs/
+.claude/
+CLAUDE.md
+AGENTS.md
+*handoff*.md
+.cursor/
+.git_old_private/
+.git_*/
+
+# ── OS ──
+.DS_Store
+Thumbs.db

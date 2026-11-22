@@ -1,0 +1,33 @@
+LGU-SDSS  -  how to run it on this PC
+=====================================
+
+You need: Windows 10/11, 8 GB RAM or more, about 6 GB free disk, internet for the first start.
+
+1. Install Docker Desktop (once)
+   https://www.docker.com/products/docker-desktop/
+   - Run the installer with the default options.
+   - If it asks to install or update WSL 2, say yes and restart the PC.
+   - Open Docker Desktop and wait until the bottom-left says "Engine running".
+     (You can skip signing in to Docker.)
+
+2. Unzip LGU-SDSS-package.zip to a simple folder, for example  C:\LGU-SDSS
+   (Right-click the zip > Extract All. Avoid the Downloads or OneDrive folders.)
+
+3. Double-click  start.bat  in the deploy\docker folder.
+   - It asks for a Gemini API key: paste it if you were given one, or just press Enter.
+     (Without it everything works except the AI part of "Ask the Data".)
+   - The first start downloads and builds everything: 5-15 minutes.
+   - When it is ready, the browser opens  http://localhost:8080
+   - Log in with the username and password you were given.
+
+Everyday use
+   start.bat          start the system (later starts take seconds)
+   stop.bat           stop it (data is kept)
+   logs.bat           show the system's messages if something looks wrong
+   backup_db.bat      save a copy of the database into the backups folder
+   reset_database.bat start over from the database copy in the package
+
+Problems?
+   "Docker Desktop is not running"  -> open Docker Desktop, wait for "Engine running", run start.bat again.
+   Port 8080 is already in use      -> open the file .env with Notepad, change APP_PORT=8080 to APP_PORT=8090, run start.bat.
+   Anything else                    -> run logs.bat and send a screenshot to the developer.

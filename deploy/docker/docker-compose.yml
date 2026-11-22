@@ -1,0 +1,51 @@
+# LGU-SDSS — start everything with start.bat (or: docker compose up -d --build)
+services:
+  db:
+    # Same PostgreSQL major version as the PC the database was exported from
+    # (start.bat reads it from deploy/pg_version.txt).
+    image: postgres:${PG_VERSION:-17}
+    restart: always
+    environment:
+      POSTGRES_DB: lgu_masterdata
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      TZ: Asia/Manila
+    volumes:
+      - dbdata:/var/lib/postgresql
+      # Restored automatically the FIRST time the database starts
+      - ../initdb:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      # TCP check: during the first-time restore the server only listens on a
+      # local socket, so this stays "unhealthy" until the restore has finished.
+      test: ["CMD-SHELL", "pg_isready -h 127.0.0.1 -U postgres -d lgu_masterdata"]
+      interval: 5s
+      timeout: 5s
+      retries: 120
+      start_period: 30s
+
+  app:
+    build:
+      context: ../..            # repo root
+      dockerfile: deploy/docker/Dockerfile
+    restart: always
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      DB_HOST: db
+      DB_PORT: "5432"
+      DB_NAME: lgu_masterdata
+      DB_USER: postgres
+      DB_PASSWORD: ${DB_PASSWORD}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY}
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      GEMINI_MODEL: ${GEMINI_MODEL:-gemini-3.6-flash}
+    ports:
+      - "${APP_PORT:-8080}:5000"
+    volumes:
+      # CBMS files, analysis results and hand-added households live in the
+      # project's data folder, so imports and new households are kept.
+      - ../../data:/app/data
+
+volumes:
+  dbdata:

@@ -1,0 +1,18 @@
+{
+ "_about": "Cluster centres (the most common value of each of the 13 typology features) of the k=5 k-modes household typology fitted on CBMS 2024 by typology_household_export.py. New imports are assigned to the nearest centre (fewest features that differ, ties to the lower cluster id), which reproduces every existing household's cluster exactly and keeps cluster ids and labels stable across imports.",
+ "features": ["overcrowding", "food_insecure", "no_internet", "weak_roof", "weak_wall", "insecure_tenure", "unimproved_sanitation", "pwd_count_cat", "senior_count_cat", "solo_parent_count_cat", "low_adult_education_hh", "large_household", "financially_excluded"],
+ "labels": {
+  "0": "Food-insecure, otherwise stable",
+  "1": "Relatively stable",
+  "2": "Senior-headed, education gaps",
+  "3": "Financially excluded / structurally insecure",
+  "4": "Compounded deprivation"
+ },
+ "centroids": {
+  "0": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "1": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+  "2": [0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1],
+  "3": [0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1],
+  "4": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0]
+ }
+}

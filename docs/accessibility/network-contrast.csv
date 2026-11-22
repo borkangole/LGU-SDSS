@@ -1,0 +1,200 @@
+theme,area,element,kind,foreground,background,ratio,required,result
+Light,Page,"Title / primary text on card",Text,#0f172a,#ffffff,17.85,4.5,PASS
+Light,Page,"Primary text on page background",Text,#0f172a,#f0f2f8,15.95,4.5,PASS
+Light,Page,"Secondary text on card",Text,#475569,#ffffff,7.58,4.5,PASS
+Light,Page,"Muted text (captions, KPI labels) on card",Text,#5b6577,#ffffff,5.88,4.5,PASS
+Light,Page,"Muted text on KPI tile",Text,#5b6577,#f8faff,5.63,4.5,PASS
+Light,Page,"Muted text on page background",Text,#5b6577,#f0f2f8,5.25,4.5,PASS
+Light,Page,"Legend text on legend bar",Text,#5b6577,#f8faff,5.63,4.5,PASS
+Light,Page,"Brand link / selected ID",Text,#1565c0,#ffffff,5.75,4.5,PASS
+Light,Page,"Brand text on selected list row",Text,#1565c0,#eff4fb,5.20,4.5,PASS
+Light,Page,"Error message on error box",Text,#b91c1c,#fff5f5,6.05,4.5,PASS
+Light,Page,"Secondary text on error box",Text,#475569,#fff5f5,7.08,4.5,PASS
+Light,Page,"Success message",Text,#166534,#ffffff,7.13,4.5,PASS
+Light,Page,"Search input text",Text,#0f172a,#ffffff,17.85,4.5,PASS
+Light,Page,"Button text (secondary)",Text,#475569,#f8faff,7.26,4.5,PASS
+Light,Page,"Button text (primary)",Text,#1565c0,#eff4fb,5.20,4.5,PASS
+Light,KPI cards,"Total households",Text,#1565c0,#f8faff,5.50,4.5,PASS
+Light,KPI cards,"Multi-family",Text,#92400e,#f8faff,6.79,4.5,PASS
+Light,KPI cards,"With a senior or PWD",Text,#6d28d9,#f8faff,6.80,4.5,PASS
+Light,KPI cards,"PWD count (highlight)",Text,#b91c1c,#f8faff,6.20,4.5,PASS
+Light,Graph nodes,"adult name text on node",Text,#1d4ed8,#f8faff,6.42,4.5,PASS
+Light,Graph nodes,"Age / tag line on adult node",Text,#475569,#f8faff,7.26,4.5,PASS
+Light,Graph nodes,""Head" tag on adult node",Text,#1d4ed8,#dbe3fa,5.23,4.5,PASS
+Light,Graph nodes,"adult outline vs graph background",UI / graphic,#1d4ed8,#f4f7ff,6.25,3,PASS
+Light,Graph nodes,"minor name text on node",Text,#065f46,#f8faff,7.36,4.5,PASS
+Light,Graph nodes,"Age / tag line on minor node",Text,#475569,#f8faff,7.26,4.5,PASS
+Light,Graph nodes,""Head" tag on minor node",Text,#065f46,#d8e5e6,5.96,4.5,PASS
+Light,Graph nodes,"minor outline vs graph background",UI / graphic,#065f46,#f4f7ff,7.17,3,PASS
+Light,Graph nodes,"senior name text on node",Text,#92400e,#f8faff,6.79,4.5,PASS
+Light,Graph nodes,"Age / tag line on senior node",Text,#475569,#f8faff,7.26,4.5,PASS
+Light,Graph nodes,""Head" tag on senior node",Text,#92400e,#eae1df,5.53,4.5,PASS
+Light,Graph nodes,"senior outline vs graph background",UI / graphic,#92400e,#f4f7ff,6.62,3,PASS
+Light,Graph nodes,"unknown name text on node",Text,#1d4ed8,#f8faff,6.42,4.5,PASS
+Light,Graph nodes,"Age / tag line on unknown node",Text,#475569,#f8faff,7.26,4.5,PASS
+Light,Graph nodes,""Head" tag on unknown node",Text,#1d4ed8,#dbe3fa,5.23,4.5,PASS
+Light,Graph nodes,"unknown outline vs graph background",UI / graphic,#1d4ed8,#f4f7ff,6.25,3,PASS
+Light,Graph nodes,"PWD outer outline vs graph background",UI / graphic,#6d28d9,#f4f7ff,6.63,3,PASS
+Light,Graph nodes,"Household label",Text,#0f172a,#ffffff,17.85,4.5,PASS
+Light,Relationships,"Spouse label",Text,#be185d,#ffffff,6.04,4.5,PASS
+Light,Relationships,"Spouse line vs graph background",UI / graphic,#be185d,#f4f7ff,5.63,3,PASS
+Light,Relationships,"Spouse legend line vs legend bar",UI / graphic,#be185d,#f8faff,5.78,3,PASS
+Light,Relationships,"Spouse chip in household list",Text,#be185d,#f9e9f0,5.16,4.5,PASS
+Light,Relationships,"Son/Daughter label",Text,#1d4ed8,#ffffff,6.70,4.5,PASS
+Light,Relationships,"Son/Daughter line vs graph background",UI / graphic,#1d4ed8,#f4f7ff,6.25,3,PASS
+Light,Relationships,"Son/Daughter legend line vs legend bar",UI / graphic,#1d4ed8,#f8faff,6.42,3,PASS
+Light,Relationships,"Son/Daughter chip in household list",Text,#1d4ed8,#eaeefb,5.79,4.5,PASS
+Light,Relationships,"Son/Daughter-in-Law label",Text,#166534,#ffffff,7.13,4.5,PASS
+Light,Relationships,"Son/Daughter-in-Law line vs graph background",UI / graphic,#166534,#f4f7ff,6.65,3,PASS
+Light,Relationships,"Son/Daughter-in-Law legend line vs legend bar",UI / graphic,#166534,#f8faff,6.83,3,PASS
+Light,Relationships,"Son/Daughter-in-Law chip in household list",Text,#166534,#e9f1ec,6.18,4.5,PASS
+Light,Relationships,"Grandchildren label",Text,#854d0e,#ffffff,6.85,4.5,PASS
+Light,Relationships,"Grandchildren line vs graph background",UI / graphic,#854d0e,#f4f7ff,6.39,3,PASS
+Light,Relationships,"Grandchildren legend line vs legend bar",UI / graphic,#854d0e,#f8faff,6.56,3,PASS
+Light,Relationships,"Grandchildren chip in household list",Text,#854d0e,#f4eee8,5.96,4.5,PASS
+Light,Relationships,"Brother/Sister label",Text,#7e22ce,#ffffff,6.98,4.5,PASS
+Light,Relationships,"Brother/Sister line vs graph background",UI / graphic,#7e22ce,#f4f7ff,6.52,3,PASS
+Light,Relationships,"Brother/Sister legend line vs legend bar",UI / graphic,#7e22ce,#f8faff,6.69,3,PASS
+Light,Relationships,"Brother/Sister chip in household list",Text,#7e22ce,#f3eafa,5.98,4.5,PASS
+Light,Relationships,"Parents label",Text,#b91c1c,#ffffff,6.47,4.5,PASS
+Light,Relationships,"Parents line vs graph background",UI / graphic,#b91c1c,#f4f7ff,6.04,3,PASS
+Light,Relationships,"Parents legend line vs legend bar",UI / graphic,#b91c1c,#f8faff,6.20,3,PASS
+Light,Relationships,"Parents chip in household list",Text,#b91c1c,#f8eaea,5.52,4.5,PASS
+Light,Relationships,"Sister/Brother-in-Law label",Text,#0e7490,#ffffff,5.36,4.5,PASS
+Light,Relationships,"Sister/Brother-in-Law line vs graph background",UI / graphic,#0e7490,#f4f7ff,5.00,3,PASS
+Light,Relationships,"Sister/Brother-in-Law legend line vs legend bar",UI / graphic,#0e7490,#f8faff,5.13,3,PASS
+Light,Relationships,"Sister/Brother-in-Law chip in household list",Text,#0e7490,#e8f2f5,4.71,4.5,PASS
+Light,Relationships,"Other Relatives label",Text,#475569,#ffffff,7.58,4.5,PASS
+Light,Relationships,"Other Relatives line vs graph background",UI / graphic,#475569,#f4f7ff,7.07,3,PASS
+Light,Relationships,"Other Relatives legend line vs legend bar",UI / graphic,#475569,#f8faff,7.26,3,PASS
+Light,Relationships,"Other Relatives chip in household list",Text,#475569,#eeeff1,6.58,4.5,PASS
+Light,Families,"Head's family caption",Text,#1565c0,#ecf2fd,5.11,4.5,PASS
+Light,Families,"Other family caption (tree view)",Text,#92400e,#f4f3f4,6.41,4.5,PASS
+Light,Families,"Other family caption (radial view)",Text,#92400e,#f4eee7,6.16,4.5,PASS
+Light,Hazard badge,"compound",Text,#7f1d1d,#eee1e1,7.86,4.5,PASS
+Light,Hazard badge,"high",Text,#b91c1c,#f6e1e1,5.16,4.5,PASS
+Light,Hazard badge,"moderate",Text,#9a3412,#f2e4df,5.89,4.5,PASS
+Light,Hazard badge,"low",Text,#854d0e,#efe7df,5.61,4.5,PASS
+Light,Hazard badge,"none",Text,#4b5563,#e7e8ea,6.18,4.5,PASS
+Light,Domain cards,"Typology badge",Text,#6d28d9,#ebe2fa,5.67,4.5,PASS
+Light,Domain cards,"Not assigned badge",Text,#4b5563,#e6e8ea,6.15,4.5,PASS
+Light,Domain cards,"Distance: beyond both badge",Text,#b91c1c,#f5e0e0,5.12,4.5,PASS
+Light,Domain cards,"Distance: beyond one badge",Text,#92400e,#f0e5de,5.73,4.5,PASS
+Light,Domain cards,"Distance: within 2 km badge",Text,#166534,#dfeae3,5.78,4.5,PASS
+Light,Domain cards,"Hazard: high badge",Text,#b91c1c,#f5e0e0,5.12,4.5,PASS
+Light,Domain cards,"Hazard: none badge",Text,#4b5563,#e6e8ea,6.15,4.5,PASS
+Light,Cluster match,"Match % text",Text,#6d28d9,#ffffff,7.10,4.5,PASS
+Light,Cluster match,"Match ring vs track",UI / graphic,#6d28d9,#cbd5e1,4.79,3,PASS
+Light,Controls,"Input / select border vs field",UI / graphic,#8a94a6,#ffffff,3.06,3,PASS
+Light,Controls,"Input / select border vs card",UI / graphic,#8a94a6,#ffffff,3.06,3,PASS
+Light,Controls,"Keyboard focus outline vs card",UI / graphic,#1d4ed8,#ffffff,6.70,3,PASS
+Light,Controls,"Keyboard focus outline vs graph",UI / graphic,#1d4ed8,#f4f7ff,6.25,3,PASS
+Dark,Page,"Title / primary text on card",Text,#e8eaf0,#111520,15.16,4.5,PASS
+Dark,Page,"Primary text on page background",Text,#e8eaf0,#0b0e17,16.03,4.5,PASS
+Dark,Page,"Secondary text on card",Text,#a0aec0,#111520,8.08,4.5,PASS
+Dark,Page,"Muted text (captions, KPI labels) on card",Text,#8a94ad,#111520,6.01,4.5,PASS
+Dark,Page,"Muted text on KPI tile",Text,#8a94ad,#181c27,5.61,4.5,PASS
+Dark,Page,"Muted text on page background",Text,#8a94ad,#0b0e17,6.35,4.5,PASS
+Dark,Page,"Legend text on legend bar",Text,#8a94ad,#0e1219,6.18,4.5,PASS
+Dark,Page,"Brand link / selected ID",Text,#4e9bff,#111520,6.47,4.5,PASS
+Dark,Page,"Brand text on selected list row",Text,#4e9bff,#18253b,5.45,4.5,PASS
+Dark,Page,"Error message on error box",Text,#f87171,#231923,6.16,4.5,PASS
+Dark,Page,"Secondary text on error box",Text,#a0aec0,#231923,7.56,4.5,PASS
+Dark,Page,"Success message",Text,#4ade80,#111520,10.46,4.5,PASS
+Dark,Page,"Search input text",Text,#e8eaf0,#0b0e17,16.03,4.5,PASS
+Dark,Page,"Button text (secondary)",Text,#a0aec0,#181c27,7.54,4.5,PASS
+Dark,Page,"Button text (primary)",Text,#4e9bff,#18253b,5.45,4.5,PASS
+Dark,KPI cards,"Total households",Text,#4e9bff,#181c27,6.04,4.5,PASS
+Dark,KPI cards,"Multi-family",Text,#fbbf24,#181c27,10.19,4.5,PASS
+Dark,KPI cards,"With a senior or PWD",Text,#c4b5fd,#181c27,9.22,4.5,PASS
+Dark,KPI cards,"PWD count (highlight)",Text,#f87171,#181c27,6.15,4.5,PASS
+Dark,Graph nodes,"adult name text on node",Text,#7cb4ff,#0f1e2e,7.89,4.5,PASS
+Dark,Graph nodes,"Age / tag line on adult node",Text,#a0aec0,#0f1e2e,7.48,4.5,PASS
+Dark,Graph nodes,""Head" tag on adult node",Text,#7cb4ff,#1e324a,6.11,4.5,PASS
+Dark,Graph nodes,"adult outline vs graph background",UI / graphic,#7cb4ff,#0b0e17,9.02,3,PASS
+Dark,Graph nodes,"minor name text on node",Text,#34d399,#102018,8.80,4.5,PASS
+Dark,Graph nodes,"Age / tag line on minor node",Text,#a0aec0,#102018,7.50,4.5,PASS
+Dark,Graph nodes,""Head" tag on minor node",Text,#34d399,#153829,6.71,4.5,PASS
+Dark,Graph nodes,"minor outline vs graph background",UI / graphic,#34d399,#0b0e17,10.03,3,PASS
+Dark,Graph nodes,"senior name text on node",Text,#fbbf24,#2a2010,9.58,4.5,PASS
+Dark,Graph nodes,"Age / tag line on senior node",Text,#a0aec0,#2a2010,7.09,4.5,PASS
+Dark,Graph nodes,""Head" tag on senior node",Text,#fbbf24,#463513,7.06,4.5,PASS
+Dark,Graph nodes,"senior outline vs graph background",UI / graphic,#fbbf24,#0b0e17,11.55,3,PASS
+Dark,Graph nodes,"unknown name text on node",Text,#7cb4ff,#252e42,6.35,4.5,PASS
+Dark,Graph nodes,"Age / tag line on unknown node",Text,#a0aec0,#252e42,6.01,4.5,PASS
+Dark,Graph nodes,""Head" tag on unknown node",Text,#7cb4ff,#31405b,4.89,4.5,PASS
+Dark,Graph nodes,"unknown outline vs graph background",UI / graphic,#7cb4ff,#0b0e17,9.02,3,PASS
+Dark,Graph nodes,"PWD outer outline vs graph background",UI / graphic,#c4b5fd,#0b0e17,10.44,3,PASS
+Dark,Graph nodes,"Household label",Text,#e8eaf0,#0f1322,15.34,4.5,PASS
+Dark,Relationships,"Spouse label",Text,#f9a8d4,#161b26,9.50,4.5,PASS
+Dark,Relationships,"Spouse line vs graph background",UI / graphic,#f9a8d4,#0b0e17,10.63,3,PASS
+Dark,Relationships,"Spouse legend line vs legend bar",UI / graphic,#f9a8d4,#0e1219,10.35,3,PASS
+Dark,Relationships,"Spouse chip in household list",Text,#f9a8d4,#272331,8.46,4.5,PASS
+Dark,Relationships,"Son/Daughter label",Text,#93c5fd,#161b26,9.55,4.5,PASS
+Dark,Relationships,"Son/Daughter line vs graph background",UI / graphic,#93c5fd,#0b0e17,10.69,3,PASS
+Dark,Relationships,"Son/Daughter legend line vs legend bar",UI / graphic,#93c5fd,#0e1219,10.40,3,PASS
+Dark,Relationships,"Son/Daughter chip in household list",Text,#93c5fd,#1d2635,8.47,4.5,PASS
+Dark,Relationships,"Son/Daughter-in-Law label",Text,#86efac,#161b26,12.27,4.5,PASS
+Dark,Relationships,"Son/Daughter-in-Law line vs graph background",UI / graphic,#86efac,#0b0e17,13.73,3,PASS
+Dark,Relationships,"Son/Daughter-in-Law legend line vs legend bar",UI / graphic,#86efac,#0e1219,13.36,3,PASS
+Dark,Relationships,"Son/Daughter-in-Law chip in household list",Text,#86efac,#1c2a2d,10.59,4.5,PASS
+Dark,Relationships,"Grandchildren label",Text,#fcd34d,#161b26,11.95,4.5,PASS
+Dark,Relationships,"Grandchildren line vs graph background",UI / graphic,#fcd34d,#0b0e17,13.37,3,PASS
+Dark,Relationships,"Grandchildren legend line vs legend bar",UI / graphic,#fcd34d,#0e1219,13.01,3,PASS
+Dark,Relationships,"Grandchildren chip in household list",Text,#fcd34d,#272724,10.39,4.5,PASS
+Dark,Relationships,"Brother/Sister label",Text,#d8b4fe,#161b26,9.75,4.5,PASS
+Dark,Relationships,"Brother/Sister line vs graph background",UI / graphic,#d8b4fe,#0b0e17,10.90,3,PASS
+Dark,Relationships,"Brother/Sister legend line vs legend bar",UI / graphic,#d8b4fe,#0e1219,10.61,3,PASS
+Dark,Relationships,"Brother/Sister chip in household list",Text,#d8b4fe,#242435,8.63,4.5,PASS
+Dark,Relationships,"Parents label",Text,#fca5a5,#161b26,9.08,4.5,PASS
+Dark,Relationships,"Parents line vs graph background",UI / graphic,#fca5a5,#0b0e17,10.16,3,PASS
+Dark,Relationships,"Parents legend line vs legend bar",UI / graphic,#fca5a5,#0e1219,9.89,3,PASS
+Dark,Relationships,"Parents chip in household list",Text,#fca5a5,#27232d,8.14,4.5,PASS
+Dark,Relationships,"Sister/Brother-in-Law label",Text,#67e8f9,#161b26,11.89,4.5,PASS
+Dark,Relationships,"Sister/Brother-in-Law line vs graph background",UI / graphic,#67e8f9,#0b0e17,13.30,3,PASS
+Dark,Relationships,"Sister/Brother-in-Law legend line vs legend bar",UI / graphic,#67e8f9,#0e1219,12.94,3,PASS
+Dark,Relationships,"Sister/Brother-in-Law chip in household list",Text,#67e8f9,#192934,10.30,4.5,PASS
+Dark,Relationships,"Other Relatives label",Text,#cbd5e1,#161b26,11.60,4.5,PASS
+Dark,Relationships,"Other Relatives line vs graph background",UI / graphic,#cbd5e1,#0b0e17,12.98,3,PASS
+Dark,Relationships,"Other Relatives legend line vs legend bar",UI / graphic,#cbd5e1,#0e1219,12.64,3,PASS
+Dark,Relationships,"Other Relatives chip in household list",Text,#cbd5e1,#232732,10.05,4.5,PASS
+Dark,Families,"Head's family caption",Text,#7aa2ff,#0f1422,7.37,4.5,PASS
+Dark,Families,"Other family caption (tree view)",Text,#fbbf24,#171516,10.88,4.5,PASS
+Dark,Families,"Other family caption (radial view)",Text,#fbbf24,#271f16,9.70,4.5,PASS
+Dark,Hazard badge,"compound",Text,#fda4af,#302833,7.50,4.5,PASS
+Dark,Hazard badge,"high",Text,#f87171,#30212b,5.50,4.5,PASS
+Dark,Hazard badge,"moderate",Text,#fb923c,#302624,6.51,4.5,PASS
+Dark,Hazard badge,"low",Text,#facc15,#302d1f,8.98,4.5,PASS
+Dark,Hazard badge,"none",Text,#9ca3af,#242833,5.81,4.5,PASS
+Dark,Domain cards,"Typology badge",Text,#c4b5fd,#292b3e,7.53,4.5,PASS
+Dark,Domain cards,"Not assigned badge",Text,#9ca3af,#242834,5.77,4.5,PASS
+Dark,Domain cards,"Distance: beyond both badge",Text,#f87171,#31222b,5.47,4.5,PASS
+Dark,Domain cards,"Distance: beyond one badge",Text,#fbbf24,#312c21,8.30,4.5,PASS
+Dark,Domain cards,"Distance: within 2 km badge",Text,#4ade80,#19302d,7.98,4.5,PASS
+Dark,Domain cards,"Hazard: high badge",Text,#f87171,#31222b,5.47,4.5,PASS
+Dark,Domain cards,"Hazard: none badge",Text,#9ca3af,#242834,5.77,4.5,PASS
+Dark,Cluster match,"Match % text",Text,#c4b5fd,#111520,9.87,4.5,PASS
+Dark,Cluster match,"Match ring vs track",UI / graphic,#c4b5fd,#32363f,6.56,3,PASS
+Dark,Controls,"Input / select border vs field",UI / graphic,#5f6b85,#0b0e17,3.61,3,PASS
+Dark,Controls,"Input / select border vs card",UI / graphic,#5f6b85,#111520,3.41,3,PASS
+Dark,Controls,"Keyboard focus outline vs card",UI / graphic,#7cb4ff,#111520,8.53,3,PASS
+Dark,Controls,"Keyboard focus outline vs graph",UI / graphic,#7cb4ff,#0b0e17,9.02,3,PASS
+Export,PNG / PDF graph,"adult name and outline",Text,#1d4ed8,#f8faff,6.42,4.5,PASS
+Export,PNG / PDF graph,"minor name and outline",Text,#065f46,#f8faff,7.36,4.5,PASS
+Export,PNG / PDF graph,"senior name and outline",Text,#92400e,#f8faff,6.79,4.5,PASS
+Export,PNG / PDF graph,"Age / tag line",Text,#475569,#f8faff,7.26,4.5,PASS
+Export,PNG / PDF graph,"Spouse label",Text,#be185d,#ffffff,6.04,4.5,PASS
+Export,PNG / PDF graph,"Son/Daughter label",Text,#1d4ed8,#ffffff,6.70,4.5,PASS
+Export,PNG / PDF graph,"Son/Daughter-in-Law label",Text,#166534,#ffffff,7.13,4.5,PASS
+Export,PNG / PDF graph,"Grandchildren label",Text,#854d0e,#ffffff,6.85,4.5,PASS
+Export,PNG / PDF graph,"Brother/Sister label",Text,#7e22ce,#ffffff,6.98,4.5,PASS
+Export,PNG / PDF graph,"Parents label",Text,#b91c1c,#ffffff,6.47,4.5,PASS
+Export,PNG / PDF graph,"Sister/Brother-in-Law label",Text,#0e7490,#ffffff,5.36,4.5,PASS
+Export,PNG / PDF graph,"Other Relatives label",Text,#475569,#ffffff,7.58,4.5,PASS
+Export,PNG / PDF graph,"Other family caption",Text,#92400e,#fef5e7,6.57,4.5,PASS
+Export,PDF report text,"Danger",Text,#b91c1c,#ffffff,6.47,4.5,PASS
+Export,PDF report text,"Success",Text,#166534,#ffffff,7.13,4.5,PASS
+Export,PDF report text,"Warning",Text,#92400e,#ffffff,7.09,4.5,PASS
+Export,PDF report text,"Purple",Text,#6d28d9,#ffffff,7.10,4.5,PASS
+Export,PDF report text,"Brand",Text,#1565c0,#ffffff,5.75,4.5,PASS
+Export,PDF report text,"Info",Text,#0369a1,#ffffff,5.93,4.5,PASS

@@ -1,0 +1,11 @@
+# Extra packages the backend imports that are not in backend/requirements.txt
+# (on the development PC they were installed globally).
+waitress>=3.0
+pandas>=2.0
+numpy>=1.26
+geopandas>=0.14
+shapely>=2.0
+pyproj>=3.6
+matplotlib>=3.8     # barangay maps drawn by the domain pipeline after an import
+openpyxl>=3.1       # lets the CBMS import also accept .xlsx copies of the files
+kmodes>=0.12        # typology scripts (typology_household_export.py)

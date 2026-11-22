@@ -1,0 +1,20 @@
+{
+  "_note": "Facility locations used on the map (same coordinates as the map's Schools and Evac 500m overlays). Listed per barangay on the Capacity page; NOT part of any score.",
+  "evacuation_centers": [
+    { "name": "Designated Evacuation Center (Municipality of San Miguel)", "lat": 10.777608953222822, "lng": 122.45512535528346 }
+  ],
+  "schools": [
+    { "name": "San Miguel Central Elementary School", "level": "Elementary", "lat": 10.7790349, "lng": 122.4676097 },
+    { "name": "Consolacion Elementary School", "level": "Elementary", "lat": 10.8100043, "lng": 122.4754063 },
+    { "name": "San Jose Elementary School", "level": "Elementary", "lat": 10.7620601, "lng": 122.4959247 },
+    { "name": "Sta. Cruz Elementary School", "level": "Elementary", "lat": 10.7902889, "lng": 122.4583487 },
+    { "name": "Igtambo Elementary School", "level": "Elementary", "lat": 10.7772, "lng": 122.4526 },
+    { "name": "San Antonio Elementary School", "level": "Elementary", "lat": 10.7766, "lng": 122.4376 },
+    { "name": "Sta. Teresa Elementary School", "level": "Elementary", "lat": 10.8046, "lng": 122.4914 },
+    { "name": "Sto. Angel Elementary School", "level": "Elementary", "lat": 10.7629, "lng": 122.4208 },
+    { "name": "Sto. Niño Elementary School", "level": "Elementary", "lat": 10.7846, "lng": 122.4809 },
+    { "name": "Leonora S. Salapantan National High School", "level": "High school (public)", "lat": 10.7824868, "lng": 122.4639603 },
+    { "name": "The Integrated Academy School System (San Miguel Ext.)", "level": "High school (private)", "lat": 10.7785099, "lng": 122.4592824 },
+    { "name": "Shepherd's Way Christian Academy", "level": "High school (private)", "lat": 10.7738872, "lng": 122.4611283 }
+  ]
+}

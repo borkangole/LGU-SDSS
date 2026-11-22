@@ -1,0 +1,18 @@
+**/node_modules
+**/__pycache__
+**/.venv
+**/venv
+**/*.pyc
+**/.env
+.git
+frontend/dist
+database
+deploy/initdb
+backups
+deploy/installer
+deploy/no-docker
+Claude outputs
+**/*.xlsx
+data/imports
+data/cbms 2024/CDRA
+*.zip
